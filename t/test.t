@@ -2,4 +2,4 @@ use Test::More tests => 1;
 
 # ------------------------
 
-BEGIN{ use_ok('CGI::Application::Diff::Dir'); }
+BEGIN{ use_ok('CGI::Application::Util::Diff'); }

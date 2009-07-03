@@ -1,6 +1,6 @@
 ---
 name: CGI-Application-Util-Diff
-version: 1.00
+version: 1.01
 author:
   - 'Ron Savage <ron@savage.net.au>'
 abstract: 'Diff 2 directories or files, or run other commands'
@@ -30,16 +30,16 @@ build_requires:
 provides:
   CGI::Application::Util::Diff:
     file: lib/CGI/Application/Util/Diff.pm
-    version: 1.00
+    version: 1.01
   CGI::Application::Util::Diff::Actions:
     file: lib/CGI/Application/Util/Diff/Actions.pm
-    version: 1.00
+    version: 1.01
   CGI::Application::Util::Diff::Config:
     file: lib/CGI/Application/Util/Diff/Config.pm
-    version: 1.00
+    version: 1.01
   CGI::Application::Util::Logger:
     file: lib/CGI/Application/Util/Logger.pm
-    version: 1.00
+    version: 1.01
 generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

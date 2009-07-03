@@ -27,7 +27,7 @@ use JSON::XS;
 
 use Path::Class; # For dir() and cleanup().
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 # -----------------------------------------------
 
