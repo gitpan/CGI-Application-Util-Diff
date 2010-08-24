@@ -1,12 +1,31 @@
 ---
-name: CGI-Application-Util-Diff
-version: 1.01
+abstract: 'Diff 2 directories or files, or run other commands'
 author:
   - 'Ron Savage <ron@savage.net.au>'
-abstract: 'Diff 2 directories or files, or run other commands'
+build_requires:
+  Test::More: 0
+  Test::Pod: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
 license: artistic
-resources:
-  license: http://opensource.org/licenses/artistic-license.php
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CGI-Application-Util-Diff
+provides:
+  CGI::Application::Util::Diff:
+    file: lib/CGI/Application/Util/Diff.pm
+    version: 1.03
+  CGI::Application::Util::Diff::Actions:
+    file: lib/CGI/Application/Util/Diff/Actions.pm
+    version: 1.03
+  CGI::Application::Util::Diff::Config:
+    file: lib/CGI/Application/Util/Diff/Config.pm
+    version: 1.03
+  CGI::Application::Util::Logger:
+    file: lib/CGI/Application/Util/Logger.pm
+    version: 1.03
 requires:
   Algorithm::Diff: 0
   CGI: 0
@@ -24,23 +43,6 @@ requires:
   IPC::Capture: 0
   JSON::XS: 0
   Path::Class: 0
-build_requires:
-  Test::More: 0
-  Test::Pod: 0
-provides:
-  CGI::Application::Util::Diff:
-    file: lib/CGI/Application/Util/Diff.pm
-    version: 1.01
-  CGI::Application::Util::Diff::Actions:
-    file: lib/CGI/Application/Util/Diff/Actions.pm
-    version: 1.01
-  CGI::Application::Util::Diff::Config:
-    file: lib/CGI/Application/Util/Diff/Config.pm
-    version: 1.01
-  CGI::Application::Util::Logger:
-    file: lib/CGI/Application/Util/Logger.pm
-    version: 1.01
-generated_by: Module::Build version 0.280801
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+resources:
+  license: http://www.perlfoundation.org/artistic_license_1_0
+version: 1.03

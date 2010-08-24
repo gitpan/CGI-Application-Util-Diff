@@ -27,7 +27,7 @@ use JSON::XS;
 
 use Path::Class; # For dir() and cleanup().
 
-our $VERSION = '1.01';
+our $VERSION = '1.03';
 
 # -----------------------------------------------
 
@@ -984,8 +984,7 @@ Home page: http://savage.net.au/index.html
 
 =head1 Copyright
 
-Australian copyright (c) 2009, Ron Savage. All rights reserved.
-
+Australian copyright (c) 2009, Ron Savage.
 	All Programs of mine are 'OSI Certified Open Source Software';
 	you can redistribute them and/or modify them under the terms of
 	The Artistic License, a copy of which is available at:

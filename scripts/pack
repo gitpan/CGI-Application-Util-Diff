@@ -2,7 +2,7 @@
 
 cd /home/ron/perl.modules/CGI-Application-Util-Diff
 
-cp -r /home/ron/httpd/prefork/htdocs/assets/css/cgi/application/util       htdocs/assets/css/cgi/application/
-cp -r /home/ron/httpd/prefork/htdocs/assets/templates/cgi/application/util htdocs/assets/templates/cgi/application/
-cp    /home/ron/httpd/prefork/htdocs/local/util.diff                       htdocs/local
-cp    /home/ron/httpd/prefork/cgi-bin/util.diff.cgi                        httpd/cgi-bin
+cp -r /var/www/assets/css/cgi/application/util       htdocs/assets/css/cgi/application/
+cp -r /var/www/assets/templates/cgi/application/util htdocs/assets/templates/cgi/application/
+cp    /var/www/local/util.diff                       htdocs/local
+cp    /usr/lib/cgi-bin/util.diff.cgi                 httpd/cgi-bin
